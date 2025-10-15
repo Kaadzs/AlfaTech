@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container-topo {
+    background-color: #2f86d6;
+    padding: 20px 0;
+}
+
+.topo {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: auto;
+}
+
+.logo-titulo {
+    float: left;
+}
+
+.logo-titulo img {
+    width: 80px;
+    height: auto;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo-titulo div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.titulo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.subtitulo {
+    font-size: 16px;
+    color: #fff;
+}
+
+nav {
+    float: right;
+    padding-top: 25px;
+}
+
+.link-topo {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.container-tabela {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+table {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 5px 0px 10px 2px #2f86d6;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #fff;
+}
+
+.celula-vazia {
+    width: 25%;
+}
+
+.th-plano {
+    padding: 20px;
+    border: 1px solid #f0f0f0;
+    background-color: #f6f7f9;
+}
+
+.th-plano p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.th-plano h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2f86d6;
+}
+
+tbody {
+    text-align: center;
+}
+
+.th-recurso {
+    background-color: #f6f7f9;
+    padding: 15px 20px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    border: 1px solid #f0f0f0;
+}
+
+td {
+    padding: 15px;
+    border: 1px solid #f0f0f0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.check-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #2f86d6;
+    border-radius: 50%;
+}
+
+.container-rodape {
+    background-color: #2f86d6;
+    padding: 50px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.container-rodape .logo-titulo {
+    margin-bottom: 20px;
+    float: none;
+    display: inline-block;
+}
+
+.container-rodape .titulo,
+.container-rodape .subtitulo {
+    color: #fff;
+}
+
+.copy {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dev {
+    padding: 5px;
+    text-align: center;
+    background-color: #f1f3f7;
+}
+
+.dev span {
+    color: #0084ff;
+    font-weight: 500;
+}
