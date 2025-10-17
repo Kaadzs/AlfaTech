@@ -1,6 +1,5 @@
 # Projeto AlfaTech 🚀
 
-![Prévia do Projeto AlfaTech](./preview/preview-alfatech.png)
 
 ## 📖 Sobre o Projeto
 
